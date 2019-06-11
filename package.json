@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "start": "nodemon index.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-   },
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shuen-yasui/CRUD-01-MyBlog.git"
@@ -22,8 +22,11 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
+    "epilogue": "^0.7.1",
     "express": "^4.17.1",
-    "express-session": "^1.16.1"
+    "express-session": "^1.16.1",
+    "sequelize": "^4.42.0",
+    "sqlite3": "^4.0.8"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
